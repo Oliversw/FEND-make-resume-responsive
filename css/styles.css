@@ -40,7 +40,7 @@ p {
   top: 0;
   left: 0;
   z-index: -1;
-  width: 100%;
+  width: 30%;
   height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/profile.jpg");
   background-size: cover;
@@ -63,6 +63,7 @@ p {
   font-weight: 300;
   line-height: 1.818;
   overflow-y: scroll;
+  width:70%;
 }
 .part {
   width: 100%;
@@ -88,4 +89,18 @@ p {
   font-style: italic;
   font-weight: 600;
   color: rgb(43, 93, 240);
+}
+
+/*
+Media Queries
+*/
+
+@media screen and (max-width:450px) {
+  .picture {
+    display:none;
+  }
+
+  .resume {
+    width: 100%;
+  }
 }
