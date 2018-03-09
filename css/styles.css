@@ -20,7 +20,7 @@ p {
 .picture, .resume {
   position: fixed;
   width: 960px;
-  padding: 3.125rem;
+  padding: 2.125rem;
 }
 .picture {
   top: 0;
@@ -103,5 +103,12 @@ Media Queries
 
   .resume {
     width: 100%;
+  }
+}
+
+@media screen and (max-width:1100px) {
+  .part {
+    display: flex;
+    flex-direction: column;
   }
 }
